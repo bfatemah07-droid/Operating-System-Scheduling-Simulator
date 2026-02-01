@@ -1,23 +1,18 @@
-OS Scheduling Simulator
+# OS Scheduling Simulator
 
-Description:
-Simulates core Operating System functions: process management, memory & device allocation, and CPU scheduling. Implements Dynamic Round Robin and Static Round Robin algorithms to compare performance.
+Simulates core Operating System functions: process management, memory & device allocation, and CPU scheduling. Implements **Dynamic Round Robin** and **Static Round Robin** algorithms to compare performance.
 
-Language: Java 11 | Execution: CLI
+**Language:** Java 11 | **Execution:** CLI
 
-Features
+## Features
 
-Event-driven simulation
+- Event-driven simulation
+- Dynamic & Static Round Robin
+- Process queues: Submit, Hold1, Hold2, Ready
+- Resource management (memory & devices)
 
-Dynamic & Static Round Robin
+## Usage
 
-Process queues: Submit, Hold1, Hold2, Ready
-
-Resource management (memory & devices)
-
-Usage
+```bash
 javac *.java
 java SimulationController input.txt
-
-
-Authors: Fatimah Baothman, Rafal Riri, Sidrah Alyamani
