@@ -11,8 +11,18 @@ Simulates core Operating System functions: process management, memory & device a
 - Process queues: Submit, Hold1, Hold2, Ready
 - Resource management (memory & devices)
 
+
+
+## Authors
+
+- Fatimah Saleh Baothman  
+- Rafal Abdullah Riri 
+- Sidrah Faisal Alyamani 
+  
 ## Usage
 
 ```bash
 javac *.java
 java SimulationController input.txt
+
+
